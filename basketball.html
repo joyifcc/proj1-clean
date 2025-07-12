@@ -38,49 +38,34 @@
       margin-bottom: 40px;
     }
 
-    iframe {
+    embed {
       width: 100%;
       height: 100%;
       border: none;
-    }
-
-    a.back {
       display: block;
-      text-align: center;
-      margin-top: 20px;
-      color: #4992d6;
-      text-decoration: underline;
-      font-size: 1rem;
-    }
-
-    a.back:hover {
-      color: white;
-      
     }
 
     .back-container {
-  display: flex;
-  justify-content: center;
-  margin-top: 60px;
-}
+      display: flex;
+      justify-content: center;
+      margin-top: 60px;
+    }
 
-.back-button {
-  padding: 12px 24px;
-  border: 1px solid #80d0ff;
-  border-radius: 30px;
-  color: #80d0ff;
-  text-decoration: none;
-  font-size: 1rem;
-  transition: background-color 0.3s, color 0.3s;
-}
+    .back-button {
+      padding: 12px 24px;
+      border: 1px solid #80d0ff;
+      border-radius: 30px;
+      color: #80d0ff;
+      text-decoration: none;
+      font-size: 1rem;
+      transition: background-color 0.3s, color 0.3s;
+    }
 
-.back-button:hover {
-  background-color: #80d0ff;
-  color: black;
-  cursor: pointer;
-}
-
-    
+    .back-button:hover {
+      background-color: #80d0ff;
+      color: black;
+      cursor: pointer;
+    }
   </style>
 </head>
 <body>
@@ -91,7 +76,7 @@
   </p>
 
   <div class="pdf-container">
-    <iframe src="/IEOR_142A_Project_Report.pdf"></iframe>
+    <embed src="/IEOR_142A_Project_Report.pdf" type="application/pdf" />
   </div>
 
   <div class="back-container">
