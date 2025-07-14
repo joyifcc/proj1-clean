@@ -367,3 +367,11 @@ body {
   }
   
   
+  ul.top-nav {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 10px 20px;
+    background-color: #000000;
+    margin: 0;
+  }

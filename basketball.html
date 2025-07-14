@@ -16,8 +16,10 @@
     h1 {
       text-align: center;
       font-size: 2.5rem;
+      margin-top: 80px; /* 👈 add this line */
       margin-bottom: 20px;
     }
+
 
     .description {
       text-align: center;
@@ -66,7 +68,36 @@
       color: black;
       cursor: pointer;
     }
+
+    .top-nav {
+    display: flex;
+    justify-content: flex-end; 
+    gap: 20px;
+    position: absolute;
+    list-style: none;
+    top: 20px;
+    right: 40px;
+    }
+
+    .top-nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    transition: color 0.3s;
+    }
+
+    .top-nav a:hover {
+    color: #4992d6;
+    }
   </style>
+
+<ul class="top-nav">
+  <li><a href="index.html">Home</a></li>
+  <li><a href="creator.html">Creator</a></li>
+  <li><a href="technical.html">Technical</a></li>
+</ul>
+
 </head>
 <body>
   <h1>NBA Sports Betting Predictor</h1>
